@@ -1,6 +1,6 @@
 ## 继承
 ```
-![https://raw.githubusercontent.com/Kathybren/img/master/images/jic.png]
+![](https://raw.githubusercontent.com/Kathybren/img/master/images/jic.png)
 class Teacher {
     private String name;
     private String school;
@@ -13,6 +13,7 @@ class Teacher {
         System.out.println("授课")
     }
 }
+```
 ```
 class javaTeacher extends Teacher {
     public javaTeacher (String name, String school) {
