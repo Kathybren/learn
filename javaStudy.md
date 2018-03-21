@@ -1,6 +1,8 @@
 ## 继承
 ```
-![](https://raw.githubusercontent.com/Kathybren/img/master/images/jic.png)
+[](https://raw.githubusercontent.com/Kathybren/img/master/images/jic.png)
+[](https://raw.githubusercontent.com/Kathybren/img/master/images/jc2.png)
+[](https://raw.githubusercontent.com/Kathybren/img/master/images/jc3.png)
 class Teacher {
     private String name;
     private String school;
