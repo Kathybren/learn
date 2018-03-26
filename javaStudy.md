@@ -29,9 +29,10 @@ class javaTeacher extends Teacher {
 }
 ```
 ## final 关键字
-```
+
 ![](https://raw.githubusercontent.com/Kathybren/img/master/images/ffcz.png)
 ![](https://raw.githubusercontent.com/Kathybren/img/master/images/final.png)
+```
 class demo {
     public final int number = 1 // 常量
     public void showNumber() {
@@ -50,6 +51,9 @@ class demo1 extends demo{
 }
 ```
 ## 抽象类
+![](https://raw.githubusercontent.com/Kathybren/img/master/images/cxl.png)
+![](https://raw.githubusercontent.com/Kathybren/img/master/images/cxl1.png)
+![](https://raw.githubusercontent.com/Kathybren/img/master/images/cxl2.png)
 ```
 class Employee {
     private int number;
@@ -121,6 +125,8 @@ Teacher t1 = new DBteacher();
 t1.work()
 ```
 // 接口
+![](https://raw.githubusercontent.com/Kathybren/img/master/images/jk.png)
+![](https://raw.githubusercontent.com/Kathybren/img/master/images/jk1.png)
 ```
 interface Iability{
     // 接口中只能放公有的静态常量和抽象方法
@@ -129,6 +135,7 @@ interface Iability{
     int number =1
     public abstract void show();
 }
+```
 ```
 class Child{
     public void eat() {
@@ -160,7 +167,6 @@ p.feed(d);
 
 //接口实现
 ```
-
 interface Iability{
 void eat()
 }
@@ -176,6 +182,7 @@ class Dog implements Iability{
 }
 ```
 //接口的引用变量可以引用实现类的对象
+```
 class Person {
     public void feed(Iability iability) {
         iability.eat()//动态绑定
